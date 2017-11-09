@@ -1,0 +1,36 @@
+class variabledemo{
+public static void main(string[]args){
+inta=10;
+char ch='A';
+double d=454.234;
+system.out.println("a="+a);
+system.out.println("ch="+ch);
+system.out.println("d="+d);
+system.out.println("a="+a"ch="+ch"d="+d);
+}
+}
+import java.util.scanner;
+class variableDemo{
+public static void main(string[]args){
+int a;
+string s;
+Scanner scn=new Scanner(system.in);
+System.out.print("input age:");
+a=scn.nextInt();
+scn.nextline();
+System.out.print("Input Name:");
+s=scn.nextline();
+System.out.println("Age Is:"+a);
+System.out.println("Name Is :"+s);
+}
+}
+import java.util.Scanner;
+class variableDemo{
+public static void main(string[]args){
+char ch;
+Scanner scn=new Scanner(system.in);
+system.out.print("Input A Char:");
+ch=scn.nextline().charAt(0);
+system.out.println("char is":+ch);
+}
+}
